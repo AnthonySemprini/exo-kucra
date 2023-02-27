@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.tete{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    /* justify-content: center;*/
+}
+nav a{
+   text-decoration: none;
+   margin: 10px;
+}
+.first ul{
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content:flex-end ; */
+}
+.first li{
+    list-style-type: none;
+    margin: 10px;
+}
