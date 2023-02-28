@@ -108,7 +108,7 @@ position: relative;
     margin: 15px;
     text-align: center;
     font-size: 12px;
-    
+
 }
 .texte h3{
     text-align: center;
@@ -147,10 +147,95 @@ position: relative;
 }
 #worcks{
     background-color:antiquewhite;
-    height: 500px;
-    width: 1200px;
+    height: 50vh;
+    width: 1200wv;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     padding-top:80px;
+}
+.texte p{
+    margin-top: 20px;
+    width: 430px;
+    color: gray;
+
+}
+
+/******************************** equipe ****************/
+
+.portrait{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.person{
+
+    text-align: center;
+}
+.person p{
+    font-size: 10px;
+    color: grey;
+}
+
+.person img{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+/******************************** parallax ****************/
+
+.parallax{
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+background-size: cover; /* L'image prendra 100% de l'espace */
+background-position: center; /* Centre la position de l'image */
+background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+background-image: url(media/parallax.png);
+height: 40vh;
+position: relative;
+z-index: 0;
+
+
+}
+.paraText{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    padding: 50px;
+    position: relative;
+    z-index: 2;
+
+}
+.blackfilter{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.507);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+}
+
+
+.myButton {
+	background-color:transparent;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+}
+
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
