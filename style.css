@@ -2,27 +2,96 @@
     margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+#container{
+    height: 100%;
+}                            /************* tete ******************/
 
 .tete{
     display: flex;
     justify-content: space-between;
+    color: white;
+}
+h1{
+    margin-left: 50px;
 }
 nav{
-    display: flex;
-    /* justify-content: center;*/
+    
+    display: flex;   
 }
 nav a{
+    color: white;
    text-decoration: none;
    margin: 10px;
+}
+.first {
+    background: rgb(139,195,245);
+    background: radial-gradient(circle, rgba(139,195,245,1) 0%, rgba(18,148,184,1) 100%);
 }
 .first ul{
 
     display: flex;
     flex-direction: row;
-    /* justify-content:flex-end ; */
+    margin-right: 50px;
 }
 .first li{
     list-style-type: none;
-    margin: 10px;
+    margin: 10px ;
+}
+
+                          /****************** texte et sub **************/
+
+.texteHome h2{
+    font-size: 50px;
+}                        
+.texteHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 400px;
+    width: 400px;
+    margin-left: 70px;
+}
+
+.sub input{
+    margin: 20px;
+border-radius: 13px;
+border: none;
+height: 28px;
+width: 300px;
+padding-left: 10px;
+
+}
+.sub button{
+    height: 25px;
+    width: 100px;
+    border-radius: 13px;
+    border: none;
+    background-color: #1294b8;
+    color: white;
+    
+}
+                          /****************** illustration **************/
+.textImg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.illustration{
+   
+    height: 400px;
+    width: 400px;
+    margin-right: 70px;
+}
+                            /****************texte**************/
+
+.texte{
+    margin: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+.texte h3{
+    font-size: 25px;
 }
