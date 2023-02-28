@@ -54,13 +54,22 @@ nav a{
     margin-left: 70px;
 }
 
+.sub{
+    display: flex;
+    height: 32px;
+    width: 300px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
 .sub input{
     margin: 20px;
-border-radius: 13px;
+border-radius: 16px;
 border: none;
-height: 28px;
-width: 300px;
+height: 32px;
+width: 350px;
 padding-left: 10px;
+position: relative;
 
 }
 .sub button{
@@ -70,16 +79,21 @@ padding-left: 10px;
     border: none;
     background-color: #1294b8;
     color: white;
+    position: absolute;
+    margin-right: 23px;
+    
     
 }
                           /****************** illustration **************/
 .textImg{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     margin-top: 100px;
 }
 
 .illustration{
+  
    
     height: 400px;
     width: 400px;
@@ -88,10 +102,55 @@ padding-left: 10px;
                             /****************texte**************/
 
 .texte{
+    display: flex;
+   align-items: center; 
+   flex-direction: column;
     margin: 15px;
     text-align: center;
     font-size: 12px;
+    
 }
 .texte h3{
+    text-align: center;
     font-size: 25px;
+    text-align: center;
+    width: 430px;
+}
+
+/****************cards************/
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.cards h4{
+    font-size: x-large;
+}
+#fa{
+    font-size: 40px;
+}
+#card{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+    background: rgb(139,195,245);
+    background: radial-gradient(circle, rgba(139,195,245,1) 0%, rgba(18,148,184,1) 100%);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 20px;
+}
+#worcks{
+    background-color:antiquewhite;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-top:80px;
 }
