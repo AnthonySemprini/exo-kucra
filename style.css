@@ -84,7 +84,7 @@ position: relative;
     
     
 }
-                          /****************** illustration **************/
+/****************** illustration **************/
 .textImg{
     display: flex;
     justify-content: space-between;
@@ -93,8 +93,8 @@ position: relative;
 }
 
 .illustration{
-  
-   
+    
+    
     height: 400px;
     width: 400px;
     margin-right: 70px;
@@ -105,9 +105,15 @@ position: relative;
     display: flex;
    align-items: center; 
    flex-direction: column;
-    margin: 15px;
-    text-align: center;
-    font-size: 12px;
+   margin: 15px;
+   text-align: center;
+   font-size: 12px;
+   
+}
+.texte p{
+    margin-top: 20px;
+    width: 430px;
+    color: gray;
 
 }
 .texte h3{
@@ -153,12 +159,6 @@ position: relative;
     flex-direction: column;
     margin-top: 50px;
     padding-top:80px;
-}
-.texte p{
-    margin-top: 20px;
-    width: 430px;
-    color: gray;
-
 }
 
 /******************************** equipe ****************/
@@ -232,10 +232,99 @@ z-index: 0;
 	text-decoration:none;
 }
 
-.myButton:hover {
-	background-color:transparent;
+
+/************** section client ****************/
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
-.myButton:active {
-	position:relative;
-	top:1px;
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin : 30px;
+    
+}
+.client{
+    
+    background-color:antiquewhite ;
+    height: 50vh;
+}
+
+/************** section blog ****************/
+
+
+
+.textePricing{
+    display: flex;
+   align-items: flex-start; 
+   flex-direction: column;
+   margin: 15px;
+   text-align: left;
+   font-size: 12px;
+   margin-left: 30px;
+   
+}
+.textePricing p{
+    margin-top: 20px;
+    width: 430px;
+    color: gray;
+
+}
+.textePricing h3{
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    width: 430px;
+}
+div.textePricing{
+    width:500px;
+}
+.pricing h3{
+    font-size: 25px;
+}
+.pricing p{
+    font-size: 12px;
+    color: gray;
+}
+.nbrs{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width:300px;
+
+   
+}
+.nbr2{
+  margin: 30px;
+}
+.nbr1{
+  margin: 30px;
+}
+.learnButton {
+	background-color:#3e6bde;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    margin: 30px;
+}
+.textCrea{
+    display: flex;
+    flex-direction: row;
+}
+div.creativity{
+    display: flex;
+   
+}
+.creativity img{
+    
+    height: 500px;
+    width: 500px;
 }
