@@ -123,7 +123,6 @@ position: relative;
 .texte h3{
     text-align: center;
     font-size: 25px;
-    text-align: center;
     width: 430px;
 }
 
@@ -224,7 +223,7 @@ z-index: 0;
 
 
 .myButton {
-	background-color:transparent;
+    background-color:transparent;
 	border:1px solid #ffffff;
 	display:inline-block;
 	cursor:pointer;
@@ -257,9 +256,74 @@ z-index: 0;
     height: 50vh;
 }
 
+/************** section creativity ****************/
+
+.texteButton{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.texteCrea h3{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.texteCrea p{
+    margin-top: 20px;
+   font-size: 11px;
+   width: 500px;
+    color: gray;
+}
+
+.chiffre{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+.chiffre span{
+    height: 120px;
+    width: 200px;
+    gap: 10px;
+}
+.chiffre h3{
+    margin-top: 30px;
+    font-size: 25px;
+    width: 430px;
+}
+.chiffre p{
+    margin-top: 20px;
+   
+    color: gray;
+
+}
+.creaAll{
+    display: flex;
+    height: 40vh;
+}
+#imgCrea{
+    height: 100%;
+    width: 100%;
+}
+.learnButton {
+    display: flex;
+    justify-content: center;
+	background-color:#3e6bde;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:15px 20px;
+    margin-top: 30px;
+    width: 200px;
+    text-align: center;
+	text-decoration:none;
+}
 /************** section pricing ****************/
-
-
 
 .textePricing{
     display: flex;
@@ -286,55 +350,9 @@ z-index: 0;
 div.textePricing{
     width:500px;
 }
-.creaSection h3{
-    font-size: 25px;
-}
-.creaSection p{
-    font-size: 12px;
-    color: gray;
-}
-.nbrs{
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    width:300px;
 
    
-}
-.nbr2{
-  margin: 30px;
-}
-.nbr1{
-  margin: 30px;
-}
-.learnButton {
-	background-color:#3e6bde;
-	border-radius:6px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-    margin: 30px;
-}
-.textCrea{
-    display: flex;
-    flex-direction: row;
-}
-div.creativity{
-    display: flex;
-    justify-content: flex-end;
-    height: 500px;
-    width: 500px;
-   
-}
-.creativity img{
-    
-    height: 500px;
-    width: 500px;
-}
+
 /************ card Prix **************/
 .pricing .texte{
     margin-bottom: 50px;
@@ -414,9 +432,13 @@ flex-direction: column;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:12px;
-	padding:15px 100px;
+	font-size:20px;
+	width: 350px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 	text-decoration:none;
+    text-align:center;
 }
 
 /***********blog*********************/
