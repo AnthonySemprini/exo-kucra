@@ -182,40 +182,75 @@ position: relative;
 
 /******************************** equipe ****************/
 
+.person{
+  position: relative;  
+}
 .portrait{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 60px;
+   
 }
-.imgPerson{
- text-align: center;
- object-fit: cover;  
- border-radius: 90px;
- overflow: hidden;
- height:180px;
+.portrait .imgPerson{
+    text-align: center;
+    object-fit: cover;  
+    border-radius: 90px;
+    overflow: hidden;
+    height:180px;
+   
+ 
+}
+.person h3{
+    text-align: center;
 }
 .person p{
     font-size: 10px;
     color: grey;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .imgPerson img{
     padding-bottom: 0;
     height: 180px;
     width: 180px;
+    overflow: hidden; 
     transition: transform 0.5s;
     filter: grayscale(1);
-  
+    
 }
 .imgPerson img:hover{
-        -ms-transform: scale(1.1); /* IE 9 */
-        -webkit-transform: scale(1.1); /* Safari 3-8 */
-        transform: scale(1.1);
-        filter: grayscale(0);
-     transition: transform 0.5s;
-     filter: grayscale(0);
-}   
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    filter: grayscale(0);
+    transition: transform 1s;
+    filter: grayscale(0);
+}
+.iconSocial{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    opacity: 0;
+    left: -10px;
+    top: 70px;
+    transition: 1s;
+   
+    
+}
+.person:hover .iconSocial{
+    position: absolute;
+    color:black;
+    left: 10px;
+    top: 110px;
+    opacity: 1;
+}
+.person h4{
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 /******************************** parallax ****************/
 
@@ -253,16 +288,23 @@ z-index: 0;
 
 
 .myButton {
+    margin-top: 40px;
     background-color:transparent;
 	border:1px solid #ffffff;
 	display:inline-block;
 	cursor:pointer;
+    border-radius: 5px;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:16px;
 	font-weight:bold;
 	padding:10px 35px;
 	text-decoration:none;
+}
+.myButton:hover {
+    background-color:white;
+    color:rgb(65, 63, 63);
+    border-radius: 5px;
 }
 
 
