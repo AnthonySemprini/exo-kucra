@@ -27,9 +27,13 @@ nav a{
    margin: 10px;
    font-size: 25px
 }
+ nav a:hover{
+    color:gainsboro;
+} 
 .first {
     background: rgb(139,195,245);
     background: radial-gradient(circle, rgba(139,195,245,1) 0%, rgba(18,148,184,1) 100%);
+    height: 70vh;
 }
 .first ul{
 
@@ -42,51 +46,59 @@ nav a{
     list-style-type: none;
     margin: 10px ;
 }
+.first li:hover{
+    color:gainsboro;  
+}
+
 
                           /****************** texte et sub **************/
 
-.texteHome h2{
-    font-size: 50px;
-    margin-bottom: 50px;
-}                        
 .texteHome {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     margin-left: 70px;
 }
+.texteHome h2{
+    font-size: 50px;
+    margin-bottom: 80px;
+}  
+.texteHome p{
+margin-bottom: 60px;
+}                      
 
 .sub{
     display: flex;
     height: 32px;
-    width: 300px;
+    width: 400px;
     justify-content: flex-end;
     align-items: center;
     margin-top: 40px;
 }
 .sub input{
     margin: 20px;
-border-radius: 16px;
+border-radius: 32px;
 border: none;
-height: 32px;
-width: 350px;
+height: 60px;
+width: 400px;
 padding-left: 10px;
 position: relative;
 
 }
 .sub button{
-    height: 25px;
-    width: 100px;
-    border-radius: 13px;
+    height: 54px;
+    width: 160px;
+    border-radius: 30px;
     border: none;
     background-color: #1294b8;
     color: white;
     position: absolute;
     margin-right: 23px;
-    
-    
+    }
+.sub button:hover{
+    background-color: #1294b8ac;
 }
 /****************** illustration **************/
 .textImg{
@@ -100,7 +112,7 @@ position: relative;
     
     
     height: 550px;
-    width: 550px;
+    width: 700px;
     margin-right: 70px;
 }
                             /****************texte**************/
@@ -111,7 +123,7 @@ position: relative;
    flex-direction: column;
    padding: 35px;
    text-align: center;
-   font-size: 12px;
+   font-size: 18px;
    
 }
 .texte p{
@@ -153,6 +165,10 @@ position: relative;
     justify-content: space-around;
     flex-direction: column;
     margin: 20px;
+}
+#card:hover{
+    transform: translateY(-5%);
+    transition: transform 0.5s;
 }
 #worcks{
     background-color:antiquewhite;
@@ -242,13 +258,12 @@ z-index: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 .logo img{
+    
     height: 200px;
     width: 200px;
-    margin : 30px;
-    
+    margin : 30px; 
 }
 .client{
     
