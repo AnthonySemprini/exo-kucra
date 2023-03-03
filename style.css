@@ -188,20 +188,34 @@ position: relative;
     justify-content: space-around;
     margin-bottom: 60px;
 }
-.person{
-
-    text-align: center;
+.imgPerson{
+ text-align: center;
+ object-fit: cover;  
+ border-radius: 90px;
+ overflow: hidden;
+ height:180px;
 }
 .person p{
     font-size: 10px;
     color: grey;
 }
 
-.person img{
-    height: 150px;
-    width: 150px;
-    border-radius: 75px;
+.imgPerson img{
+    padding-bottom: 0;
+    height: 180px;
+    width: 180px;
+    transition: transform 0.5s;
+    filter: grayscale(1);
+  
 }
+.imgPerson img:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1);
+        filter: grayscale(0);
+     transition: transform 0.5s;
+     filter: grayscale(0);
+}   
 
 /******************************** parallax ****************/
 
