@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 #container{
     height: 100%;
@@ -171,8 +172,8 @@ position: relative;
     transition: transform 0.5s;
 }
 #worcks{
-    background-color:antiquewhite;
-    height: 30vh;
+    background-color:#dbdbdb;
+    height: 50vh;
     width: 1200wv;
     display: flex;
     flex-direction: column;
@@ -320,12 +321,20 @@ z-index: 0;
     height: 200px;
     width: 200px;
     margin : 30px; 
+    opacity: 0.6;
+    transition-duration: 0.5s;
+}
+.logo img:hover{
+    opacity: 1;
 }
 .client{
     
-    background-color:antiquewhite ;
+    background-color:#dbdbdb ;
     height: 50vh;
 }
+
+
+
 
 /************** section creativity ****************/
 
@@ -373,6 +382,7 @@ z-index: 0;
 .creaAll{
     display: flex;
     height: 40vh;
+    justify-content: space-between;
 }
 #imgCrea{
     height: 100%;
@@ -431,9 +441,9 @@ div.textePricing{
 .pricing{ 
         display: flex;
 flex-direction: column;
-    height: 65vh;
+    height: 80vh;
    width: 100vw;
-   background-color: antiquewhite
+   background-color: #dbdbdb
 }
 
 .allCards{
@@ -528,7 +538,22 @@ flex-direction: column;
 	text-decoration:none;
     text-align:center;
 }
-
+.card2{
+    transform: translateY(-30px);
+}
+.promo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:22px;
+    background-color:#3e6bde;
+    height: 80px;
+    width: 90px;
+    border-radius:  0 30px 0 10px;
+    position: absolute;
+    left: 280px;
+}
 /***********blog*********************/
 
 .blog{
@@ -553,6 +578,37 @@ flex-direction: column;
    height: 400px;
    width: 400px;
    border-radius: 20px;
+   overflow: hidden;
+   z-index: 0;
+   position: relative;
+}
+.imgBlog{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    
+    
+}
+.blackFilterBlog{
+    background-color: rgba(0, 0, 0, 0.187);
+    height: 400px;
+    width: 400px;
+    z-index: 1;
+    position: absolute;
+   top: 0px;
+   border-radius: 20px;
+}
+.imgBlog p{
+opacity: 0;
+}
+.imgBlog:hover p{
+    position: relative;
+    transition-duration: 0.5s;
+    opacity: 1;
+    color: white;
+    top: -380px;
+    left: 20px;
+    z-index: 3;
 }
 
 .texteBlog p{
