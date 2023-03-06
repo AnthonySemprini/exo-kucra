@@ -5,6 +5,8 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+
+
 #container{
     height: 100%;
 }                            /************* tete ******************/
@@ -19,13 +21,12 @@ h1{
     font-size: 70px;
 }
 nav{
-    
     display: flex;   
 }
 nav a{
     color: white;
-   text-decoration: none;
-   margin: 10px;
+    text-decoration: none;
+    margin: 10px;
    font-size: 25px
 }
  nav a:hover{
@@ -34,10 +35,10 @@ nav a{
 .first {
     background: rgb(139,195,245);
     background: radial-gradient(circle, rgba(139,195,245,1) 0%, rgba(18,148,184,1) 100%);
-    height: 70vh;
+    height: 90vh;
 }
 .first ul{
-
+    
     display: flex;
     flex-direction: row;
     margin-right: 50px;
@@ -53,7 +54,7 @@ nav a{
 
 
                           /****************** texte et sub **************/
-
+                          
 .texteHome {
     display: flex;
     flex-direction: column;
@@ -80,8 +81,8 @@ margin-bottom: 60px;
 }
 .sub input{
     margin: 20px;
-border-radius: 32px;
-border: none;
+    border-radius: 32px;
+    border: none;
 height: 60px;
 width: 400px;
 padding-left: 10px;
@@ -116,12 +117,12 @@ position: relative;
     width: 700px;
     margin-right: 70px;
 }
-                            /****************texte**************/
+/****************texte**************/
 
 .texte{
     display: flex;
-   align-items: center; 
-   flex-direction: column;
+    align-items: center; 
+    flex-direction: column;
    padding: 35px;
    text-align: center;
    font-size: 18px;
@@ -140,11 +141,12 @@ position: relative;
 }
 
 /****************cards************/
+
 .cards{
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
+    margin:0 15% 0 15%;
 }
 .cards h4{
     font-size: x-large;
@@ -180,6 +182,7 @@ position: relative;
     margin-top: 50px;
    
 }
+
 
 /******************************** equipe ****************/
 
@@ -318,8 +321,8 @@ z-index: 0;
 }
 .logo img{
     
-    height: 200px;
-    width: 200px;
+    height: 13%;
+    width: 13%;
     margin : 30px; 
     opacity: 0.6;
     transition-duration: 0.5s;
@@ -337,7 +340,9 @@ z-index: 0;
 
 
 /************** section creativity ****************/
-
+.creativity{
+    height: 50vh;
+}
 .texteButton{
     display: flex;
     flex-direction: column;
@@ -385,8 +390,9 @@ z-index: 0;
     justify-content: space-between;
 }
 #imgCrea{
-    height: 100%;
-    width: 100%;
+    margin: 20px;
+    height: 45vh;
+    width: 50vw;
 }
 .learnButton {
     display: flex;
@@ -441,7 +447,7 @@ div.textePricing{
 .pricing{ 
         display: flex;
 flex-direction: column;
-    height: 80vh;
+    height: 90vh;
    width: 100vw;
    background-color: #dbdbdb
 }
@@ -568,6 +574,7 @@ flex-direction: column;
 .art{
     display: flex;
     flex-direction: column;
+    
     margin-top: 50px;
     margin-left: 25px;
     margin-right: 25px;
@@ -575,24 +582,24 @@ flex-direction: column;
 }
 
 .art img{
-   height: 400px;
-   width: 400px;
+   height:300px;
+   width:300px;
    border-radius: 20px;
    overflow: hidden;
    z-index: 0;
    position: relative;
 }
 .imgBlog{
-    width: 400px;
-    height: 400px;
+    width:300px;
+    height:300px;
     position: relative;
     
     
 }
 .blackFilterBlog{
     background-color: rgba(0, 0, 0, 0.187);
-    height: 400px;
-    width: 400px;
+    height:300px;
+    width:300px;
     z-index: 1;
     position: absolute;
    top: 0px;
@@ -606,22 +613,22 @@ opacity: 0;
     transition-duration: 0.5s;
     opacity: 1;
     color: white;
-    top: -380px;
+    top: -280px;
     left: 20px;
     z-index: 3;
 }
 
 .texteBlog p{
     margin-top: 20px;
-    width: 430px;
+    width: 300px;
     color: gray;
     text-align: left;
 }
 
 .texteBlog h3{
     text-align: left;
-    font-size: 25px;
-    width: 430px;
+    font-size: 20px;
+    width: 300px;
 }
 
 .readButton {
@@ -641,7 +648,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 20vh;
+    height: 25vh;
     background-color: black;
 }
 .logoReseaux{
