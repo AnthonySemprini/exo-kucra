@@ -1,0 +1,88 @@
+@media screen and (max-width: 890px) {
+
+.tete h1{
+font-size: 35px; 
+}
+nav a{
+    font-size: 25px;
+}
+
+.tete li{
+    font-size: 15px;
+}
+.textImg {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.texteHome h2{
+    font-size: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+
+}
+.texteHome p{
+font-size:8px;
+}
+.textImg .illustration{
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.first {
+    background: rgb(139,195,245);
+    background: radial-gradient(circle, rgba(139,195,245,1) 0%, rgba(18,148,184,1) 100%);
+    height: 117vh;
+}
+.texte p{
+    font-size: 10px;
+    padding:15px;
+}
+
+.portrait{
+    flex-wrap: wrap;
+    
+}
+.logo{
+    flex-wrap: wrap;
+}
+
+}
+
+@media  screen and (max-width: 500px){
+    .sub{
+        display: flex;
+        height: 40px;
+        width: 300px;
+        border-radius: 32px;
+        background-color: white;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2px;
+        margin-top: 0;
+    }
+    .sub input{
+        border-radius: 32px;
+        border: none;
+        height: 40px;
+        width: 110px;
+        outline: none;
+        padding: 0 10px;
+        font-size: 10px;
+    }
+    .sub button{
+        height: 100%;
+        width: 90px;
+        border-radius: 30px;
+        border: none;
+        background-color: #1294b8;
+        color: white;
+        text-transform: uppercase;
+    
+        }
+    .sub button:hover{
+        background-color: #1294b8ac;
+    }
+    .texteHome{
+        margin-left: 15px;
+    }
