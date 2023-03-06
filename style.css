@@ -16,10 +16,7 @@
     justify-content: space-between;
     color: white;
 }
-h1{
-    margin-left: 50px;
-    font-size: 70px;
-}
+
 nav{
     display: flex;   
 }
@@ -59,8 +56,8 @@ nav a{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 600px;
-    width: 600px;
+    height: 50%;
+    width: 50%;
     margin-left: 70px;
 }
 .texteHome h2{
@@ -113,8 +110,8 @@ position: relative;
 .illustration{
     
     
-    height: 550px;
-    width: 700px;
+    height: 50%;
+    width: 50%;
     margin-right: 70px;
 }
 /****************texte**************/
