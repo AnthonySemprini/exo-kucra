@@ -36,9 +36,11 @@ font-size:8px;
 }
 .texte p{
     font-size: 10px;
-    padding:15px;
+    padding:25px;
 }
-
+.titrePortrait{
+    padding: 20px;
+}
 .portrait{
     flex-wrap: wrap;
     
@@ -46,9 +48,31 @@ font-size:8px;
 .logo{
     flex-wrap: wrap;
 }
-
+.creaAll{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    margin: 15px;
+}
+.creativity{
+    height: 90vh;
 }
 
+#imgCrea{
+    width: 90%;
+    height: 90%;
+}
+.logoReseaux {
+padding-top: 20px;
+   
+}
+.parallax{
+height: 45vh;
+}
+.blackfilter{
+    height: 45vh;
+}
+}
 @media  screen and (max-width: 500px){
     .sub{
         display: flex;
@@ -80,9 +104,14 @@ font-size:8px;
         text-transform: uppercase;
     
         }
+        .person h3{
+            text-align: center;
+            
+        }
     .sub button:hover{
         background-color: #1294b8ac;
     }
     .texteHome{
         margin-left: 15px;
     }
+}

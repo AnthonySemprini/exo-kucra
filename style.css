@@ -118,7 +118,7 @@ margin-bottom: 60px;
     
     height: 50%;
     width: 50%;
-    margin-right: 70px;
+   padding-right: 20px;
 }
 /****************texte**************/
 
@@ -133,14 +133,14 @@ margin-bottom: 60px;
 }
 .texte p{
     margin-top: 20px;
-    width: 430px;
+    width: 90%;
     color: gray;
 
 }
 .texte h3{
     text-align: center;
     font-size: 25px;
-    width: 430px;
+    width: 90%;
 }
 
 /****************cards************/
@@ -284,7 +284,7 @@ z-index: 0;
 }
 .blackfilter{
     height: 40vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.507);
     position: absolute;
     z-index: 1;
@@ -350,8 +350,8 @@ z-index: 0;
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 50%;
-    margin-left: 20px;
+    width: 100%;
+    
 }
 
 .texteCrea h3{
@@ -361,8 +361,9 @@ z-index: 0;
 .texteCrea p{
     margin-top: 20px;
    font-size: 11px;
-   width: 500px;
     color: gray;
+   
+
 }
 
 .chiffre{
@@ -373,24 +374,25 @@ z-index: 0;
 }
 .chiffre span{
     height: 120px;
-    width: 200px;
-    gap: 10px;
+    width: 50%;
+    gap: 20px;
 }
 .chiffre h3{
     margin-top: 30px;
     font-size: 25px;
-    width: 430px;
+  
 }
 .chiffre p{
     margin-top: 20px;
    
     color: gray;
-
 }
+
 .creaAll{
     display: flex;
     height: 40vh;
     justify-content: space-between;
+    margin-left: 20px;
 }
 #imgCrea{
     margin: 20px;
@@ -434,11 +436,14 @@ z-index: 0;
 .textePricing h3{
     text-align: center;
     font-size: 25px;
-    text-align: center;
+  
     width: 430px;
 }
 div.textePricing{
-    width:500px;
+    width:100%;
+}
+.pricing{
+    width: 100%;
 }
 
    
@@ -538,7 +543,7 @@ flex-direction: column;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:20px;
-	width: 320px;
+	width: 90%;
     height: 50px;
     margin: 15px;
     
