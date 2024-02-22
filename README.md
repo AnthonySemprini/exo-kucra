@@ -52,3 +52,5 @@ Toute contribution est la bienvenue ! Si vous souhaitez contribuer, n'hésitez p
 Pour toute question ou suggestion, n'hésitez pas à me contacter. semprini.anthony@gmail.com
 
 Try => https://landing-page-kucra.netlify.app/
+
+<img src="Capture d’écran 2024-02-22 à 01.18.32.png" >
